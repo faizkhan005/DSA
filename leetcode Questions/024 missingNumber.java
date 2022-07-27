@@ -1,4 +1,5 @@
 class Solution {
+    //using cyclic sort
     public int missingNumber(int[] nums) {
         int j,i=0;
         while(i<nums.length){

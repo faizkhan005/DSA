@@ -20,7 +20,7 @@ public class ceilingOfAGivenNumber {
         while(start <= end){
             int mid = start +(end-start)/2;
             if(arr[mid] == target)
-                return mid;
+                return arr[mid];
             if(arr[mid]<target)
                 start = mid+1;
             else 
